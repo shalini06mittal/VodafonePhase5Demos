@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Parameters Testing">
+	<parameter name="uname" value="shalini"></parameter>
+	<parameter name="pwd" value="1234"></parameter>
+    <classes>
+      <class name="com.vf.demos.ParametersTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

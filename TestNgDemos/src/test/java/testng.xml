@@ -7,8 +7,9 @@
   </test> <!-- Test -->
   <test name="Test2">
     <classes>
-      <class name="com.vf.demos.MyTestClass2"/>
       <class name="com.vf.demos.MyTestClass1"/>
+      <class name="com.vf.demos.MyTestClass2"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

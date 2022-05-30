@@ -1,0 +1,20 @@
+package com.demos;
+
+public class Test {
+
+	
+	public void gcd(int g, int s)
+	{
+		// g = 20, s = 8
+		while(g%s!=0)
+		{
+			
+		}
+		System.out.println(s);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

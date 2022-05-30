@@ -1,0 +1,18 @@
+package com.demos;
+
+public class Test {
+
+	
+	public void gcd(int g, int s)
+	{
+		while(g%s!=0)
+		{
+			
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

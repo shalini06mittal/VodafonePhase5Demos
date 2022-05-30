@@ -9,18 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">51</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">34</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">85</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Parameters Testing</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">63</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.vf.demos.MyTestClass2</td><td><a href="#m0">m3</a></td><td rowspan="1">1653907071424</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m1">m4</a></td><td rowspan="1">1653907071438</td><td rowspan="1">2</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.vf.demos.MyTestClass1</td><td><a href="#m2">m1</a></td><td rowspan="1">1653907071726</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">m2</a></td><td rowspan="1">1653907071730</td><td rowspan="1">5</td></tr><tr class="passedodd"><td rowspan="2">com.vf.demos.MyTestClass2</td><td><a href="#m4">m3</a></td><td rowspan="1">1653907071715</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m5">m4</a></td><td rowspan="1">1653907071719</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parameters Testing &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.vf.demos.ParametersTest</td><td><a href="#m0">testLoginScreenFromDataProvider</a></td><td rowspan="1">1653911319890</td><td rowspan="1">4</td></tr><tr><th colspan="4">Parameters Testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.vf.demos.ParametersTest</td><td><a href="#m1">testLoginScreen</a></td><td rowspan="1">1653911319869</td><td rowspan="1">11</td></tr><tr class="passedeven"><td><a href="#m2">testLoginScreenFromDataProvider</a></td><td rowspan="1">1653911319887</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">com.vf.demos.MyTestClass2#m3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.vf.demos.MyTestClass2#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test2</h2><h3 id="m2">com.vf.demos.MyTestClass1#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.vf.demos.MyTestClass1#m2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.vf.demos.MyTestClass2#m3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.vf.demos.MyTestClass2#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Parameters Testing</h2><h3 id="m0">com.vf.demos.ParametersTest#testLoginScreenFromDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>shalini</td><td>12345</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [12345] but found [1234]
+	at com.vf.demos.ParametersTest.testLoginScreenFromDataProvider(ParametersTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.vf.demos.ParametersTest#testLoginScreen</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>shalini</td><td>1234</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">test starting....<br/>test finished</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.vf.demos.ParametersTest#testLoginScreenFromDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>shalini</td><td>1234</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,0 +1,22 @@
+package com.demos;
+
+public class Test {
+
+	
+	public void gcd(int g, int s)
+	{
+		// g = 20, s = 8
+		while(g%s!=0)
+		{
+			int r = g%s;//4
+			g = s;
+			s = r;
+		}
+		System.out.println(s);
+	}
+	public static void main(String[] args) {
+		new Test().gcd(40, 20);
+
+	}
+
+}

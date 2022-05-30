@@ -1,0 +1,22 @@
+package com.vf.demos;
+
+import org.testng.annotations.Test;
+
+public class GroupsDemoTest {
+  @Test(groups = {"dev"})
+  public void m1() {
+	  System.out.println("m1 group dev");
+  }
+  @Test(groups = {"dev"})
+  public void m2() {
+  }
+  @Test(groups = {"dev"})
+  public void m3() {
+  }
+  @Test(groups = {"dev"})
+  public void m4() {
+  }
+  @Test(groups = {"dev"})
+  public void m5() {
+  }
+}

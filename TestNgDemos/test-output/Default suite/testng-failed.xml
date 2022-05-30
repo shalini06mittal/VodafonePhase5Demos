@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vf.demos.DependsTest">
+      <class name="com.vf.demos.ParametersTest">
         <methods>
-          <include name="m2"/>
+          <include name="testLoginScreen"/>
+          <include name="testLoginScreenFromDataProvider" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.vf.demos.DependsTest -->
+      </class> <!-- com.vf.demos.ParametersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

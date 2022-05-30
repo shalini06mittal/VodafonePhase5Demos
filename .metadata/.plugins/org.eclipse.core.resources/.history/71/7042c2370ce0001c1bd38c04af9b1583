@@ -1,0 +1,10 @@
+package com.vf.demos;
+
+import org.testng.ITestListener;
+import org.testng.annotations.Test;
+
+public class ITestListenerDemo  implements ITestListener{
+  @Test
+  public void f() {
+  }
+}
