@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Dialog Boxes</h1>
+
+
+	
+	<h1 id='h1'>Text changed For Confirm</h1>
+	<h1 id='h2'>Text changed For Prompt</h1>
+	<div><button id='conf' onclick="clickforconfirm()">Confirm</button>
+	</div>
+	<div><button id='prom' onclick="clickforprompt()">Confirm</button>
+	</div>
+	<script>
+		function clickforconfirm()
+		{
+			var ans = confirm('Are your sure?');
+			document.getElementById('h1').innerText='You selected '+ans;
+		}
+		function clickforprompt()
+		{
+			var name = prompt('Enter your name');
+			document.getElementById('h2').innerText='Your name '+name;
+		}
+	</script>
+
+</body>
+</html>

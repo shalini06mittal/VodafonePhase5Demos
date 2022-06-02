@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-31T11:39:08Z" name="Default suite" finished-at="2022-05-31T11:39:15Z" duration-ms="6463">
+  <suite started-at="2022-06-02T11:31:56Z" name="Default suite" finished-at="2022-06-02T11:32:08Z" duration-ms="12143">
     <groups>
     </groups>
-    <test started-at="2022-05-31T11:39:08Z" name="Default test" finished-at="2022-05-31T11:39:15Z" duration-ms="6463">
-      <class name="com.selenium.demos.SeleniumDemos.LocateCSSSelectorTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.selenium.demos.SeleniumDemos.LocateCSSSelectorTest@7d286fb6]" started-at="2022-05-31T11:39:08Z" name="beforeMethod" finished-at="2022-05-31T11:39:13Z" duration-ms="4223" status="PASS">
+    <test started-at="2022-06-02T11:31:56Z" name="Default test" finished-at="2022-06-02T11:32:08Z" duration-ms="12143">
+      <class name="com.selenium.demos.SeleniumDemos.AlertDialogBoxTest2">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.selenium.demos.SeleniumDemos.AlertDialogBoxTest2@176b75f7]" started-at="2022-06-02T11:31:56Z" name="beforeMethod" finished-at="2022-06-02T11:31:59Z" duration-ms="3515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testLocateByCssSelector()[pri:0, instance:com.selenium.demos.SeleniumDemos.LocateCSSSelectorTest@7d286fb6]" started-at="2022-05-31T11:39:13Z" name="testLocateByCssSelector" finished-at="2022-05-31T11:39:13Z" duration-ms="92" status="PASS">
+        <test-method signature="testPromptAndConfirm()[pri:0, instance:com.selenium.demos.SeleniumDemos.AlertDialogBoxTest2@176b75f7]" started-at="2022-06-02T11:31:59Z" name="testPromptAndConfirm" finished-at="2022-06-02T11:32:06Z" duration-ms="6469" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLocateByCssSelector -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.selenium.demos.SeleniumDemos.LocateCSSSelectorTest@7d286fb6]" started-at="2022-05-31T11:39:13Z" name="afterMethod" finished-at="2022-05-31T11:39:15Z" duration-ms="2132" status="PASS">
+        </test-method> <!-- testPromptAndConfirm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.selenium.demos.SeleniumDemos.AlertDialogBoxTest2@176b75f7]" started-at="2022-06-02T11:32:06Z" name="afterMethod" finished-at="2022-06-02T11:32:08Z" duration-ms="2129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.selenium.demos.SeleniumDemos.LocateCSSSelectorTest -->
+      </class> <!-- com.selenium.demos.SeleniumDemos.AlertDialogBoxTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

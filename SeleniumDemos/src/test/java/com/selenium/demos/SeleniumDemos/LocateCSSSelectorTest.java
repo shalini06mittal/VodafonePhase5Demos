@@ -22,11 +22,12 @@ public class LocateCSSSelectorTest {
 	String url;
   
   @Test
-  public void testLocateByCssSelector()
+  public void testLocateByCssSelector() throws InterruptedException
   {
 	  WebElement headEle = driver.findElement(By.cssSelector("h2[id^=header]"));
 	  System.out.println("Text "+headEle.getText());
 	  assertEquals(headEle.getText(),"Application Test Drive");
+	  
   }
   
   @BeforeMethod
@@ -34,8 +35,10 @@ public class LocateCSSSelectorTest {
 	  System.setProperty("webdriver.chrome.driver", "/Users/Shalini/Desktop/VodafonePhase5Demos/chromedriver 2");
 	  driver = new ChromeDriver();
 	  url="https://phptravels.com/demo/";
-	  driver.get(url);
+	  //driver.get(url);
 	  driver.manage().window().maximize();
+	  driver.get("http://www.google.com");
+	   
   }
 
   @AfterMethod
