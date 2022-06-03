@@ -10,7 +10,7 @@ import org.testng.annotations.AfterMethod;
 
 public class AlertDialogBoxTest {
 	
-	WebDriver driver;
+	
   @Test
   public void testSwitchWithinFrames() throws InterruptedException {
 
@@ -23,6 +23,7 @@ public class AlertDialogBoxTest {
 	 alert.accept();
 	 Thread.sleep(2000);
   }
+  WebDriver driver;
   @BeforeMethod
   public void beforeMethod() {
 	  System.setProperty("webdriver.chrome.driver", "/Users/Shalini/Desktop/VodafonePhase5Demos/chromedriver 2");
