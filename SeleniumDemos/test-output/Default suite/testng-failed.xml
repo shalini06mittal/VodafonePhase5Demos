@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.demos.SeleniumDemos.WebTableTest">
+      <class name="com.selenium.demos.SeleniumDemos.SeleniumGridTest">
         <methods>
-          <include name="afterMethod"/>
-          <include name="testTableValuesForCompanynames"/>
-          <include name="beforeMethod"/>
+          <include name="testHubNode"/>
+          <include name="before"/>
+          <include name="after"/>
         </methods>
-      </class> <!-- com.selenium.demos.SeleniumDemos.WebTableTest -->
+      </class> <!-- com.selenium.demos.SeleniumDemos.SeleniumGridTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

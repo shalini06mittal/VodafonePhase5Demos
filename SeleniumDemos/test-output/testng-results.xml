@@ -1,25 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-03T11:50:55Z" name="Default suite" finished-at="2022-06-03T11:51:07Z" duration-ms="12638">
+  <suite started-at="2022-06-06T09:28:21Z" name="Default suite" finished-at="2022-06-06T09:28:41Z" duration-ms="19493">
     <groups>
     </groups>
-    <test started-at="2022-06-03T11:50:55Z" name="Default test" finished-at="2022-06-03T11:51:07Z" duration-ms="12638">
-      <class name="com.selenium.demos.SeleniumDemos.TakeScreenShotTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.selenium.demos.SeleniumDemos.TakeScreenShotTest@7b8b43c7]" started-at="2022-06-03T11:50:55Z" name="beforeMethod" finished-at="2022-06-03T11:51:04Z" duration-ms="8951" status="PASS">
+    <test started-at="2022-06-06T09:28:21Z" name="Default test" finished-at="2022-06-06T09:28:41Z" duration-ms="19493">
+      <class name="com.selenium.demos.SeleniumDemos.SeleniumGridTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.selenium.demos.SeleniumDemos.SeleniumGridTest@7b8b43c7]" started-at="2022-06-06T09:28:21Z" name="before" finished-at="2022-06-06T09:28:41Z" duration-ms="19434" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: firefox}], desiredCapabilities=Capabilities {browserName: firefox}}]
+Capabilities {}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: firefox}], desiredCapabilities=Capabilities {browserName: firefox}}]
+Capabilities {}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:145)
+at com.selenium.demos.SeleniumDemos.SeleniumGridTest.before(SeleniumGridTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testTakeScreenShot()[pri:0, instance:com.selenium.demos.SeleniumDemos.TakeScreenShotTest@7b8b43c7]" started-at="2022-06-03T11:51:04Z" name="testTakeScreenShot" finished-at="2022-06-03T11:51:04Z" duration-ms="545" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="testHubNode()[pri:0, instance:com.selenium.demos.SeleniumDemos.SeleniumGridTest@7b8b43c7]" started-at="2022-06-06T09:28:41Z" name="testHubNode" finished-at="2022-06-06T09:28:41Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: firefox}], desiredCapabilities=Capabilities {browserName: firefox}}]
+Capabilities {}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'Manishs-MacBook-Pro.local', ip: '2405:201:21:41ca:e196:a72b:5946:d48f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.3', java.version: '11.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: firefox}], desiredCapabilities=Capabilities {browserName: firefox}}]
+Capabilities {}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:145)
+at com.selenium.demos.SeleniumDemos.SeleniumGridTest.before(SeleniumGridTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTakeScreenShot -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.selenium.demos.SeleniumDemos.TakeScreenShotTest@7b8b43c7]" started-at="2022-06-03T11:51:04Z" name="afterMethod" finished-at="2022-06-03T11:51:07Z" duration-ms="3125" status="PASS">
+        </test-method> <!-- testHubNode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.selenium.demos.SeleniumDemos.SeleniumGridTest@7b8b43c7]" started-at="2022-06-06T09:28:41Z" name="after" finished-at="2022-06-06T09:28:41Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.selenium.demos.SeleniumDemos.TakeScreenShotTest -->
+        </test-method> <!-- after -->
+      </class> <!-- com.selenium.demos.SeleniumDemos.SeleniumGridTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
