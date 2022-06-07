@@ -1,9 +1,0 @@
-package com.vf.demos;
-
-import org.testng.annotations.Test;
-
-public class MyTestClass1 {
-  @Test
-  public void f() {
-  }
-}
