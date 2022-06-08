@@ -16,26 +16,26 @@ import org.springframework.boot.web.server.LocalServerPort;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 class SpringWebDemoApplicationTests {
 
-	@LocalServerPort
-	private int port;
+//	@LocalServerPort
+//	private int port;
+//	
+//	
+//	@Autowired
+//	private TestRestTemplate restTemplate;
+//	
 	
-	
-	@Autowired
-	private TestRestTemplate restTemplate;
-	
-	
-	@Test
-	void testAuthorCount() {
-		String count = this.restTemplate.getForObject("http://localhost:"+port+"/authors/count", String.class);
-		System.out.println(count);
-		try {
-			JSONObject obj = new JSONObject(count);
-			assertEquals(3, obj.get("count"));
-		} catch (JSONException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	
-	}
+	//@Test
+//	void testAuthorCount() {
+//		String count = this.restTemplate.getForObject("http://localhost:"+port+"/authors/count", String.class);
+//		System.out.println(count);
+//		try {
+//			JSONObject obj = new JSONObject(count);
+//			assertEquals(3, obj.get("count"));
+//		} catch (JSONException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
+//	
+//	}
 }
