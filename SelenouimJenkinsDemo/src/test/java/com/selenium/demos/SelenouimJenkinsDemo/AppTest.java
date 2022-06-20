@@ -41,7 +41,7 @@ public class AppTest
   
   @BeforeMethod
   public void beforeMethod() {
-	  System.setProperty("webdriver.chrome.driver", "VodafonePhase5Demos/chromedriver 2");
+	  System.setProperty("webdriver.chrome.driver", "chromedriver 2");
 	  driver = new ChromeDriver();
 	  url="http://register.rediff.com/register/register.php?FormName=user_details";
 	  driver.get(url);
