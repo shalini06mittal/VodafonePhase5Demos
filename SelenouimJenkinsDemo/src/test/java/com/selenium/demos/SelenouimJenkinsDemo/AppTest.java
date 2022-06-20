@@ -42,7 +42,8 @@ public class AppTest
   
   @BeforeMethod
   public void beforeMethod() {
-	  System.setProperty("webdriver.chrome.driver", "chromedriver 2");
+	  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+	  
 	  ChromeOptions options = new ChromeOptions();
 	 // options.addArguments("--headless", "window-size=1400,1500");
 	  options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");

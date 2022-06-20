@@ -2336,3 +2336,23 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected na
 2022-06-20 15:49:33,296 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
 2022-06-20 15:49:33,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-20 15:49:33,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:51:56,984 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:51:56,985 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:51:56,987 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:51:56,987 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:52:00,568 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:52:00,568 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:52:00,570 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:52:00,570 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:54:30,126 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:54:30,127 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:54:30,132 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:54:30,132 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 16:02:11,360 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 16:02:11,363 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 16:02:11,367 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 16:02:11,371 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 16:02:28,960 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 16:02:28,963 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 16:02:28,964 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 16:02:28,964 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
