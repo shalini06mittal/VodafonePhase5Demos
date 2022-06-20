@@ -2315,3 +2315,24 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected na
 2022-06-06 16:51:18,630 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
 2022-06-06 16:51:18,631 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-06 16:51:18,631 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:46:24,397 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:46:24,405 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:46:24,411 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:46:24,411 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:47:30,903 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:47:30,904 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:47:30,907 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:47:30,907 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:47:40,128 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:47:40,129 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:47:40,132 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:47:40,132 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:47:45,550 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-20 15:48:30,366 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:48:30,372 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:48:30,374 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:48:30,374 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources
+2022-06-20 15:49:33,295 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:49:33,296 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/main/resources
+2022-06-20 15:49:33,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-20 15:49:33,297 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Shalini/Desktop/VodafonePhase5Demos/SelenouimJenkinsDemo/src/test/resources

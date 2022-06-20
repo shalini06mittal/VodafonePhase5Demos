@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -42,7 +43,10 @@ public class AppTest
   @BeforeMethod
   public void beforeMethod() {
 	  System.setProperty("webdriver.chrome.driver", "chromedriver 2");
-	  driver = new ChromeDriver();
+	  ChromeOptions options = new ChromeOptions();
+	 // options.addArguments("--headless", "window-size=1400,1500");
+	  options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
+	  driver = new ChromeDriver(options);
 	  url="http://register.rediff.com/register/register.php?FormName=user_details";
 	  driver.get(url);
 	  driver.manage().window().maximize();
